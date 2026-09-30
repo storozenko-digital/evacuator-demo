@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Демонстрационный сайт службы эвакуации автомобилей в Воронеже и области.">
+  <title>Эвакуатор в Воронеже — демонстрационный сайт</title>
+  <link rel="preload" href="hero.webp" as="image" type="image/webp">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="demo-bar">Демонстрационный сайт · контакты, график и тарифы добавляются после согласования</div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="На главную"><span class="brand-mark">Э</span><span>Эвакуатор<span class="accent">Воронеж</span></span></a>
+    <nav aria-label="Основная навигация">
+      <a href="#services">Услуги</a><a href="#price">Стоимость</a><a href="#steps">Как вызвать</a><a href="#zones">География</a>
+    </nav>
+    <a class="header-cta" href="#request">Рассчитать поездку</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media" role="img" aria-label="Эвакуатор перевозит легковой автомобиль по городу"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Воронеж · область · межгород</p>
+        <h1>Эвакуатор без лишних вопросов</h1>
+        <p class="hero-copy">Сообщите адрес, марку автомобиля и состояние колёс. Диспетчер уточнит подходящую технику, маршрут и стоимость до выезда.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#request">Рассчитать стоимость</a>
+          <a class="button button-ghost" href="#services">Выбрать услугу</a>
+        </div>
+        <ul class="hero-points" aria-label="Основные преимущества">
+          <li>Цена после уточнения задачи</li><li>Подбор техники под автомобиль</li><li>Город, область и межгород</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="quick" aria-label="Что сообщить диспетчеру">
+      <div><b>01</b><span><strong>Где вы</strong>Адрес подачи</span></div>
+      <div><b>02</b><span><strong>Что везём</strong>Марка и масса</span></div>
+      <div><b>03</b><span><strong>Что случилось</strong>Колёса и руль</span></div>
+      <div><b>04</b><span><strong>Куда доставить</strong>Адрес назначения</span></div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-heading"><p class="eyebrow dark">Услуги</p><h2>Подберём способ погрузки</h2><p>Тип техники определяется состоянием автомобиля и местом подачи.</p></div>
+      <div class="cards">
+        <article class="card"><span class="icon">◆</span><h3>Легковые автомобили</h3><p>Перевозка исправных и неисправных машин по городу и области.</p></article>
+        <article class="card"><span class="icon">◫</span><h3>Кроссоверы и внедорожники</h3><p>Учитываем массу, габариты и доступ к месту погрузки.</p></article>
+        <article class="card"><span class="icon">◉</span><h3>Авто после ДТП</h3><p>Перед выездом уточняем состояние колёс, рулевого управления и кузова.</p></article>
+        <article class="card"><span class="icon">↗</span><h3>Межгород</h3><p>Маршрут и итоговую стоимость согласуем до подачи эвакуатора.</p></article>
+      </div>
+    </section>
+
+    <section class="section split" id="price">
+      <div class="price-panel">
+        <p class="eyebrow">Стоимость</p><h2>Понятный расчёт до выезда</h2>
+        <p>Цена зависит не только от расстояния. Чтобы назвать корректную сумму, диспетчеру нужны четыре параметра:</p>
+        <ul class="check-list"><li>точки подачи и назначения;</li><li>тип и масса автомобиля;</li><li>состояние колёс и рулевого управления;</li><li>сложность подъезда и погрузки.</li></ul>
+        <p class="note">Тарифы владельца будут размещены после подтверждения — без вымышленных цен и скрытых условий.</p>
+      </div>
+      <div class="route-card">
+        <p class="route-label">Пример заявки</p>
+        <div class="route-row"><span>Подача</span><b>Северный район</b></div>
+        <div class="route-line"><i></i></div>
+        <div class="route-row"><span>Назначение</span><b>Автосервис</b></div>
+        <hr>
+        <div class="route-row"><span>Автомобиль</span><b>Легковой</b></div>
+        <div class="route-row"><span>Состояние</span><b>Не заводится</b></div>
+        <a class="button button-primary full" href="#request">Уточнить расчёт</a>
+      </div>
+    </section>
+
+    <section class="section" id="steps">
+      <div class="section-heading"><p class="eyebrow dark">Как вызвать</p><h2>Четыре простых шага</h2></div>
+      <ol class="steps"><li><span>1</span><h3>Оставьте заявку</h3><p>Передайте адрес и данные автомобиля.</p></li><li><span>2</span><h3>Получите расчёт</h3><p>Согласуйте технику, маршрут и стоимость.</p></li><li><span>3</span><h3>Подтвердите подачу</h3><p>Диспетчер сообщит детали выезда.</p></li><li><span>4</span><h3>Примите автомобиль</h3><p>Эвакуатор доставит его в согласованную точку.</p></li></ol>
+    </section>
+
+    <section class="section zones" id="zones">
+      <div><p class="eyebrow">География</p><h2>Воронеж, область и межгород</h2><p>Коминтерновский, Центральный, Ленинский, Советский, Железнодорожный и Левобережный районы. Выезд за город рассчитывается по маршруту.</p></div>
+      <div class="map-art" aria-hidden="true"><span class="ring r1"></span><span class="ring r2"></span><span class="road road-a"></span><span class="road road-b"></span><b class="pin">●</b><em>Воронеж</em></div>
+    </section>
+
+    <section class="request" id="request">
+      <div><p class="eyebrow">Заявка</p><h2>Опишите ситуацию — диспетчер рассчитает поездку</h2><p>В рабочей версии форма отправит заявку владельцу службы. Сейчас можно проверить сценарий и внешний вид.</p></div>
+      <form id="demo-form">
+        <label>Откуда<input name="from" placeholder="Район или адрес" required></label>
+        <label>Куда<input name="to" placeholder="Район или адрес" required></label>
+        <label>Автомобиль<input name="car" placeholder="Марка и модель" required></label>
+        <label>Телефон<input name="phone" type="tel" placeholder="Контакт для ответа" required></label>
+        <label class="wide">Что случилось<textarea name="details" rows="3" placeholder="Например: не заводится, колёса свободны"></textarea></label>
+        <button class="button button-primary wide" type="submit">Запросить расчёт</button>
+        <p class="form-status wide" id="form-status" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#top"><span class="brand-mark">Э</span><span>Эвакуатор<span class="accent">Воронеж</span></span></a><p>Демонстрационная версия сайта для службы эвакуации.</p><a href="privacy.html">Политика конфиденциальности</a></footer>
+  <a class="mobile-cta" href="#request">Рассчитать поездку</a>
+  <script src="script.js"></script>
+</body>
+</html>
